@@ -1,0 +1,21 @@
+uuid: dcf33853-a645-44be-992d-4d4dfbeb0b65
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha_de_estreno
+    - node.type.curso
+  module:
+    - datetime
+id: node.curso.field_fecha_de_estreno
+field_name: field_fecha_de_estreno
+entity_type: node
+bundle: curso
+label: 'Fecha de estreno'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

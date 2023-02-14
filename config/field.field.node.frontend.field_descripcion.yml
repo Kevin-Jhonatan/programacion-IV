@@ -1,0 +1,23 @@
+uuid: 855dac55-b3c8-4247-a731-fc7cfd0bb1e5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.frontend
+  module:
+    - text
+id: node.frontend.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: frontend
+label: Descripción
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

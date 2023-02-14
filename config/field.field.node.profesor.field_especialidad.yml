@@ -1,0 +1,21 @@
+uuid: 3bfce06b-4b5b-4c46-8440-e56b1621e454
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_especialidad
+    - node.type.profesor
+  module:
+    - text
+id: node.profesor.field_especialidad
+field_name: field_especialidad
+entity_type: node
+bundle: profesor
+label: Especialidad
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

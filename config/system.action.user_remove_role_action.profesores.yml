@@ -1,0 +1,14 @@
+uuid: 077985fb-c5e2-4457-b646-536507beea9b
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.profesores
+  module:
+    - user
+id: user_remove_role_action.profesores
+label: 'Elimina el rol Profesores al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: profesores

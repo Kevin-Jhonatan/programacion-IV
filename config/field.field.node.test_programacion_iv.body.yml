@@ -1,0 +1,23 @@
+uuid: 81c903f3-2d43-4dc6-94a5-4f180c42fab5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.test_programacion_iv
+  module:
+    - text
+id: node.test_programacion_iv.body
+field_name: body
+entity_type: node
+bundle: test_programacion_iv
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

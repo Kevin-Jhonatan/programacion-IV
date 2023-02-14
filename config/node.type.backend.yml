@@ -1,0 +1,18 @@
+uuid: c96293fb-9330-45f3-a06b-66775bdb230c
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Backend
+type: backend
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

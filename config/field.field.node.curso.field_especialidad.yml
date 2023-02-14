@@ -1,0 +1,21 @@
+uuid: 4db76aea-2d07-44ef-a203-b620b0655753
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_especialidad
+    - node.type.curso
+  module:
+    - text
+id: node.curso.field_especialidad
+field_name: field_especialidad
+entity_type: node
+bundle: curso
+label: Especialidad
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

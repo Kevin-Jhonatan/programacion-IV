@@ -1,0 +1,21 @@
+uuid: 2480d2c6-8884-4be4-8bf2-190bc3d90ca6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_especialidad
+    - node.type.backend
+  module:
+    - text
+id: node.backend.field_especialidad
+field_name: field_especialidad
+entity_type: node
+bundle: backend
+label: Especialidad
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

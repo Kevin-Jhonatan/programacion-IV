@@ -1,0 +1,29 @@
+uuid: 20d92ea0-ee71-4d46-9ecc-94bfab60642e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.test_programacion_iv.body
+    - node.type.test_programacion_iv
+  module:
+    - text
+    - user
+id: node.test_programacion_iv.default
+targetEntityType: node
+bundle: test_programacion_iv
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

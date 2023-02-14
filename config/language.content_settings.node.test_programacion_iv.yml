@@ -1,0 +1,11 @@
+uuid: b2bdf0f0-1fb9-4dcf-b7e9-213c430766c5
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.test_programacion_iv
+id: node.test_programacion_iv
+target_entity_type_id: node
+target_bundle: test_programacion_iv
+default_langcode: site_default
+language_alterable: false

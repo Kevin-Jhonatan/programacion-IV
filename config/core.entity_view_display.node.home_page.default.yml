@@ -1,0 +1,20 @@
+uuid: 0aff87de-958d-4415-ae6d-4b3087ae61ef
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.home_page
+  module:
+    - user
+id: node.home_page.default
+targetEntityType: node
+bundle: home_page
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

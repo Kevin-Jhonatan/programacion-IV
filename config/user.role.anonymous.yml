@@ -1,0 +1,29 @@
+uuid: 638a34c3-4ee4-43b1-91fd-5654ef0b4469
+langcode: es
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+    - node.type.blog
+  module:
+    - comment
+    - contact
+    - filter
+    - media
+    - node
+    - search
+    - system
+_core:
+  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+id: anonymous
+label: 'Usuario anónimo'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'create blog content'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view media'

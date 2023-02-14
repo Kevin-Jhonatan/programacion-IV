@@ -1,0 +1,18 @@
+uuid: 76aa5e07-040b-49f7-8b54-f428494b5840
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.backend
+    - node.type.curso
+    - node.type.frontend
+  module:
+    - node
+id: profesores
+label: Profesor
+weight: 4
+is_admin: null
+permissions:
+  - 'create backend content'
+  - 'create curso content'
+  - 'create frontend content'

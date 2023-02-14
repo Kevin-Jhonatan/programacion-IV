@@ -1,0 +1,19 @@
+uuid: be3b51de-9428-46ed-8462-ea8826baea6d
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_profesor
+field_name: field_profesor
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

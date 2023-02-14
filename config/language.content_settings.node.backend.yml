@@ -1,0 +1,11 @@
+uuid: f5f1aa16-f3b6-4f24-9012-cc56d8e56925
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.backend
+id: node.backend
+target_entity_type_id: node
+target_bundle: backend
+default_langcode: site_default
+language_alterable: false

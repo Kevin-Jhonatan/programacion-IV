@@ -1,0 +1,29 @@
+uuid: e5e6657a-0770-45c0-a6e5-2971edb90230
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_profesor
+    - node.type.backend
+    - node.type.profesor
+id: node.backend.field_profesor
+field_name: field_profesor
+entity_type: node
+bundle: backend
+label: Profesor
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      profesor: profesor
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

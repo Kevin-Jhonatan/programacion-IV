@@ -1,0 +1,21 @@
+uuid: 87e98743-c4eb-4dc5-bfe8-6b9b76e3fb68
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_especialidad
+    - node.type.frontend
+  module:
+    - text
+id: node.frontend.field_especialidad
+field_name: field_especialidad
+entity_type: node
+bundle: frontend
+label: Especialidad
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

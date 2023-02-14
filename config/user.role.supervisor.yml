@@ -1,0 +1,26 @@
+uuid: 7d5adb3e-5fcd-4f77-b8e0-b39f46a4d7b9
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.backend
+    - node.type.blog
+    - node.type.curso
+    - node.type.frontend
+    - node.type.profesor
+  module:
+    - node
+id: supervisor
+label: Supervisor
+weight: 5
+is_admin: null
+permissions:
+  - 'create backend content'
+  - 'create curso content'
+  - 'create frontend content'
+  - 'create profesor content'
+  - 'delete any backend content'
+  - 'delete any blog content'
+  - 'delete any curso content'
+  - 'delete any frontend content'
+  - 'delete any profesor content'

@@ -1,0 +1,21 @@
+uuid: 24611fcc-5415-4487-9c5b-9117515d8646
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_apellido
+    - node.type.profesor
+  module:
+    - text
+id: node.profesor.field_apellido
+field_name: field_apellido
+entity_type: node
+bundle: profesor
+label: Apellido
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

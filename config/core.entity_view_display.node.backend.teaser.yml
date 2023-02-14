@@ -1,0 +1,29 @@
+uuid: 174e76b6-41fb-4a0d-8e78-9a843b9cd172
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.backend.field_descripcion
+    - field.field.node.backend.field_especialidad
+    - field.field.node.backend.field_profesor
+    - field.field.node.backend.field_video
+    - node.type.backend
+  module:
+    - user
+id: node.backend.teaser
+targetEntityType: node
+bundle: backend
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_descripcion: true
+  field_especialidad: true
+  field_profesor: true
+  field_video: true
+  langcode: true

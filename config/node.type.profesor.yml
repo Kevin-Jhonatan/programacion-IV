@@ -1,0 +1,18 @@
+uuid: b38ddd71-7605-4b09-aab4-b43340753e1e
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Profesor
+type: profesor
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

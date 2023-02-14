@@ -1,0 +1,67 @@
+uuid: 9913398c-cdd3-4b03-803e-5d8f38d4783e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.profesor.field_apellido
+    - field.field.node.profesor.field_c_i_
+    - field.field.node.profesor.field_cursos
+    - field.field.node.profesor.field_especialidad
+    - field.field.node.profesor.field_image
+    - node.type.profesor
+  module:
+    - image
+    - text
+    - user
+id: node.profesor.default
+targetEntityType: node
+bundle: profesor
+mode: default
+content:
+  field_apellido:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_c_i_:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_cursos:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_especialidad:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

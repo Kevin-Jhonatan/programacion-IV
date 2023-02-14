@@ -1,0 +1,18 @@
+uuid: 7d91e297-f17e-4819-8dd9-263513a8b713
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.profesor
+id: node.profesor.title
+field_name: title
+entity_type: node
+bundle: profesor
+label: Nombre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

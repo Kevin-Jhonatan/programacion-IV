@@ -1,0 +1,29 @@
+uuid: fdbdbc22-546a-42b2-93d1-163c0d216ce6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cursos
+    - node.type.curso
+    - node.type.profesor
+id: node.profesor.field_cursos
+field_name: field_cursos
+entity_type: node
+bundle: profesor
+label: Cursos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      curso: curso
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
